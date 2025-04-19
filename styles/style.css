@@ -17,6 +17,7 @@ html {
   }
   
   header {
+    align-items : center;
     background-color: #0eb0ab;
     color: white;
     padding: 1.5rem 2rem;
