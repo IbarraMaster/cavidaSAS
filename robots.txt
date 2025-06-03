@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://cavidasas.netlify.app/sitemap.xml
