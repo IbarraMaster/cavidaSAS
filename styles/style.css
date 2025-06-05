@@ -218,6 +218,7 @@ html {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
+  align-items: center;
 }
 
 .card {
@@ -228,12 +229,18 @@ html {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
 }
+.cardTarjetaAlto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+}
 
 .card:hover {
   transform: translateY(-5px);
 }
 
-.card img {
+.cardEquipo {
   width: 100%;
   max-width: 180px;
   height: 180px;
@@ -391,4 +398,9 @@ hr.custom-separator {
   background-color: #e20914;
   margin: 10px auto 0;
   border-radius: 4px;
+}
+
+.cardAliado{
+  width: 100%;
+  
 }
