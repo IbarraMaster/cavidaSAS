@@ -221,12 +221,6 @@ html {
   align-items: center;
 }
 
-@media (max-width: 600px) {
-  .card-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 .card {
   background-color: #ffffff;
   text-align: center;
