@@ -470,3 +470,42 @@ hr.custom-separator {
   align-items: center;
   
 }
+
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 24px;
+  right: 24px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  transition: box-shadow 0.2s, transform 0.2s;
+  text-decoration: none;
+}
+.whatsapp-float:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.35);
+  transform: scale(1.08);
+}
+.whatsapp-float img {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+@media (max-width: 600px) {
+  .whatsapp-float {
+    width: 48px;
+    height: 48px;
+    bottom: 16px;
+    right: 16px;
+  }
+  .whatsapp-float img {
+    width: 24px;
+    height: 24px;
+  }
+}
