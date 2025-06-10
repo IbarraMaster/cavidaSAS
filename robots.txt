@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cavidasas.netlify.app/sitemap.xml
+Sitemap: https://cavidasas.com/sitemap.xml
