@@ -592,5 +592,15 @@ hr.custom-separator {
     align-items: center;
     justify-content: center;
   }
+}
+
+.contableGrid{
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: center;
+}
+
+.imgTemporales{
+  max-width: 100%;
 
 }
