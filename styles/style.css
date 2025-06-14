@@ -4,75 +4,75 @@ html {
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-    line-height: 1.6;
-  }
-  
-  header {
-    align-items : center;
-    background-color: #8bdcda;
-    color: white;
-    padding: 1.5rem 2rem;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  header img{
-    width: 200px;
-    height: auto;
-  }
-  
-  nav {
-    background-color: #e0e0e0;
-    display: flex;
-    justify-content: center;
-    padding: 1rem 0;
-  }
-  
-  nav a {
-    color: #0eb0ab;
-    font-weight: 900;
-    text-decoration: none;
-    margin: 0 1.5rem;
-    font-weight: bold;
-    transition: color 0.3s ease, transform 0.3s ease;
-  }
-  
-  nav a:hover {
-    color: #e20914;
-    transform: scale(1.1);
-  }
-  
-  .container {
-    max-width: 1100px;
-    margin: auto;
-    padding: 2rem;
-  }
-  
-  .section-title {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #013b52;
-  }
-  
-  
-  footer {
-    background-color: #0eb0ab;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 4rem;
-  }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  align-items: center;
+  background-color: #8bdcda;
+  color: white;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+header img {
+  width: 200px;
+  height: auto;
+}
+
+nav {
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+nav a {
+  color: #0eb0ab;
+  font-weight: 900;
+  text-decoration: none;
+  margin: 0 1.5rem;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+  color: #e20914;
+  transform: scale(1.1);
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #013b52;
+}
+
+
+footer {
+  background-color: #0eb0ab;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 4rem;
+}
 
 /* --- Responsive design --- */
 
@@ -154,6 +154,7 @@ html {
   max-width: 700px;
   border-radius: 10px;
 }
+
 .map-img {
   width: 100%;
   max-width: 700px;
@@ -186,7 +187,7 @@ html {
 
 .service-text {
   flex: 1;
-  min-width: 280px;
+  min-width: 180px;
   max-width: 700px;
   font-size: 1.1rem;
   line-height: 1.8;
@@ -209,7 +210,7 @@ html {
   aspect-ratio: 4 / 3;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* === EQUIPO === */
@@ -226,11 +227,12 @@ html {
   text-align: center;
   padding: 1.5rem;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 
 }
-.cardTarjetaAlto{
+
+.cardTarjetaAlto {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -271,7 +273,7 @@ html {
   flex-shrink: 0;
   border-radius: 10px;
   margin-right: 1rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 768px) {
@@ -284,26 +286,31 @@ html {
 
 @media (max-width: 768px) {
   .service-image {
-    width: 100%; /* Asegura que la imagen se ajuste completamente */
+    width: 100%;
+    /* Asegura que la imagen se ajuste completamente */
   }
 
   .service-text {
-    padding: 15px; /* Reduce el padding para pantallas pequeñas */
+    padding: 15px;
+    /* Reduce el padding para pantallas pequeñas */
   }
 
   .whatsapp-button {
-    font-size: 1rem; /* Ajusta el tamaño de la fuente */
-    padding: 10px 20px; /* Ajusta el padding para mayor comodidad */
+    font-size: 1rem;
+    /* Ajusta el tamaño de la fuente */
+    padding: 10px 20px;
+    /* Ajusta el padding para mayor comodidad */
   }
 
   .map-img {
     width: 100%;
-    height: 200px; /* Ajusta la altura del mapa */
+    height: 200px;
+    /* Ajusta la altura del mapa */
   }
 }
 
 
-  
+
 /* Footer redes sociales*/
 .social-links-footer {
   display: flex;
@@ -334,7 +341,8 @@ html {
 }
 
 .team-photo {
-  background-image: url('../imgs/equipo.jpg'); /* Ajusta la ruta */
+  background-image: url('../imgs/equipo.jpg');
+  /* Ajusta la ruta */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -343,6 +351,7 @@ html {
   margin-top: 2rem;
   border-radius: 20px;
 }
+
 @media (max-width: 768px) {
   .team-photo {
     height: 250px;
@@ -354,6 +363,7 @@ html {
 .card:hover {
   border-bottom: 4px solid #e20914;
 }
+
 hr.custom-separator {
   border: none;
   height: 4px;
@@ -362,6 +372,7 @@ hr.custom-separator {
   margin: 1rem auto;
   border-radius: 4px;
 }
+
 .secondary {
   color: #0eb0ab;
 }
@@ -401,18 +412,18 @@ hr.custom-separator {
   border-radius: 4px;
 }
 
-.cardAliado{
+.cardAliado {
   max-width: 100%;
 }
 
-.card a{
+.card a {
   text-decoration: none;
   color: #013b52;
   font-weight: 500;
   font-style: italic;
 }
 
-.iconoAliado{
+.iconoAliado {
   width: 60px;
 }
 
@@ -422,11 +433,12 @@ hr.custom-separator {
   padding: 2rem;
   background: #f7fafc;
   border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
+
 .formulario1 label {
   font-weight: 500;
   color: #333;
@@ -434,6 +446,7 @@ hr.custom-separator {
   flex-direction: column;
   gap: 0.5rem;
 }
+
 .formulario1 input,
 .formulario1 textarea {
   padding: 0.5rem;
@@ -442,11 +455,13 @@ hr.custom-separator {
   font-size: 1rem;
   transition: border-color 0.2s;
 }
+
 .formulario1 input:focus,
 .formulario1 textarea:focus {
   border-color: #0077b6;
   outline: none;
 }
+
 .formulario1 button {
   background: #0eb0ab;
   color: #fff;
@@ -458,17 +473,18 @@ hr.custom-separator {
   cursor: pointer;
   transition: background 0.2s;
 }
+
 .formulario1 button:hover {
   background: #023e8a;
 }
 
-.gracias{
+.gracias {
   display: flex;
   flex-direction: column;
   padding: 20px;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .whatsapp-float {
@@ -480,7 +496,7 @@ hr.custom-separator {
   background-color: #25d366;
   color: #fff;
   border-radius: 50%;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -488,15 +504,18 @@ hr.custom-separator {
   transition: box-shadow 0.2s, transform 0.2s;
   text-decoration: none;
 }
+
 .whatsapp-float:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.35);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
   transform: scale(1.08);
 }
+
 .whatsapp-float img {
   width: 32px;
   height: 32px;
   display: block;
 }
+
 @media (max-width: 600px) {
   .whatsapp-float {
     width: 48px;
@@ -504,8 +523,74 @@ hr.custom-separator {
     bottom: 16px;
     right: 16px;
   }
+
   .whatsapp-float img {
     width: 24px;
     height: 24px;
   }
+}
+
+.center {
+  text-align: center;
+  padding: 15px;
+}
+
+.bienestarGrid {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  align-items: center;
+  justify-content: center;
+}
+
+.bienestarGrid img {
+  width: 400px;
+}
+
+.bienestarDiv {
+  margin: 10px;
+}
+
+.bienestarDiv ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width:480px) {
+  .bienestarGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+.asistencialesGrid{
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.asistencialesGrid2{
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.asistencialesGrid img{
+  max-width: 100%;
+  border-radius: 20px;
+}
+@media (max-width:480px) {
+  .asistencialesGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
